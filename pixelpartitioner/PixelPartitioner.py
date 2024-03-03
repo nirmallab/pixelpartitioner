@@ -13,6 +13,7 @@ results in a DataFrame. The final results are saved in a CSV file within the spe
 
 
 import os
+import shutil
 import numpy as np
 import tifffile
 import pandas as pd
@@ -28,6 +29,11 @@ def process_images(image_paths, outputFolder, num_classes):
     
     # Construct the final output folder path by combining outputFolder and outputFolderName
     final_output_folder = os.path.join(outputFolder, outputFolderName)
+    
+    # Clear the final output folder if it exists, then recreate it
+    if os.path.exists(final_output_folder):
+        shutil.rmtree(final_output_folder)
+    os.makedirs(final_output_folder)
     
     if isinstance(image_paths, str):
         image_paths = [image_paths]
@@ -75,6 +81,7 @@ def process_images(image_paths, outputFolder, num_classes):
     # Convert results to DataFrame
     df = pd.DataFrame(results)
     return df
+
 
 
 def PixelPartitioner (imagePaths, 

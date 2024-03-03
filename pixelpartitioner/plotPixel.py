@@ -82,4 +82,4 @@ Example:
     plt.figtext(0.5, 0.01, f'Percentage of Positive Pixels: {percentage_brightest:.2f}%', ha="center", fontsize=12)
     plt.tight_layout()
     
-    plt.show()
+    #plt.show()
