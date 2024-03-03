@@ -9,11 +9,12 @@ from pixelpartitioner.getImages import getImages
 from pixelpartitioner.PixelPartitioner import PixelPartitioner
 from pixelpartitioner.plotPixel import plotPixel
 import os
+import pytest
 
-
+@pytest.fixture
 def test_getImages (directory):
     # set up dir
-    dirPath = os. getcwd() + '/pixelpartitioner/tests/data'
+    dirPath = str(os. getcwd()) + '/pixelpartitioner/tests/data'
     print(str(directory))
     # run function
     imagePaths = getImages(directory=dirPath, extension='tif' )
