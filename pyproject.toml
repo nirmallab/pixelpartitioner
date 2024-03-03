@@ -12,6 +12,7 @@ tifffile = "^2024.2.12"
 pandas = "^2.2.1"
 scikit-image = "^0.22.0"
 matplotlib = "^3.8.3"
+pytest = "^8.0.2"
 
 
 [build-system]

@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar  3 15:56:57 2024
+@author: Ajit Johnson Nirmal
+"""
+
+from getImages import getImages
+from pixelpartitioner import pixelpartitioner
+from plotPixel import plotPixel
+import os
+
+
+def test_getImages (directory):
+    # set up dir
+    directory = os. getcwd() + '/pixelpartitioner/tests/data'
+    # run function
+    imagePaths = getImages(directory, extension='tif' )
+    # test
+    assert len(imagePaths) == 2
+
