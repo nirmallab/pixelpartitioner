@@ -15,7 +15,6 @@ import pytest
 def test_getImages (directory):
     # set up dir
     dirPath = str(os. getcwd()) + '/pixelpartitioner/tests/data'
-    print(str(directory))
     # run function
     imagePaths = getImages(directory=dirPath, extension='tif' )
     # test
