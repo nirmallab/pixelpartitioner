@@ -15,12 +15,12 @@ import os
 
 # function
 
-def getImages (directory, 
+def getImages (folderPath, 
                extension=None):
 
     """
 Parameters:
-    directory (str):
+    folderPath (str):
         The path to the directory from which files will be listed. This directory should already exist and be accessible at the time of function invocation.
         
     extension (str, optional):
@@ -48,8 +48,8 @@ Example:
     if extension and not extension.startswith('.'):
         extension = '.' + extension
 
-    for file in os.listdir(directory):
-        file_path = os.path.join(directory, file)
+    for file in os.listdir(folderPath):
+        file_path = os.path.join(folderPath, file)
         # Check if it's a file and not a directory
         if os.path.isfile(file_path):
             # If extension is provided, filter files by the extension
