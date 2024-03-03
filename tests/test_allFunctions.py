@@ -13,10 +13,10 @@ import os
 
 def test_getImages (directory):
     # set up dir
-    directory = os. getcwd() + '/pixelpartitioner/tests/data'
+    dirPath = os. getcwd() + '/pixelpartitioner/tests/data'
     print(str(directory))
     # run function
-    #imagePaths = getImages(directory, extension='tif' )
+    imagePaths = getImages(directory=dirPath, extension='tif' )
     # test
-    #assert len(imagePaths) == 2
+    assert len(imagePaths) == 2
 
