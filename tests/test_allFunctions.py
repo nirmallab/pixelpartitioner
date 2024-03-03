@@ -5,9 +5,9 @@ Created on Sun Mar  3 15:56:57 2024
 @author: Ajit Johnson Nirmal
 """
 
-from getImages import getImages
-from pixelpartitioner import pixelpartitioner
-from plotPixel import plotPixel
+from pixelpartitioner.getImages import getImages
+from pixelpartitioner.pixelpartitioner import pixelpartitioner
+from pixelpartitioner.plotPixel import plotPixel
 import os
 
 
