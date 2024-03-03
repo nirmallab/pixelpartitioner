@@ -21,7 +21,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.pytest.ini_options]
-addopts = "-ra -q"  # Default options: show extra test summary info for all except passed tests, and run quietly
+addopts = "-ra -q"
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_functions = ["test_*"]

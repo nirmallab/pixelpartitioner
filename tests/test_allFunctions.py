@@ -12,11 +12,14 @@ import os
 import pytest
 
 @pytest.fixture
-def test_getImages (directory):
+def dirPath ():
     # set up dir
     dirPath = str(os. getcwd()) + '/pixelpartitioner/tests/data'
+    return dirPath
+
+
+def test_getImages (directory):
     # run function
     imagePaths = getImages(directory=dirPath, extension='tif' )
     # test
     assert len(imagePaths) == 2
-
