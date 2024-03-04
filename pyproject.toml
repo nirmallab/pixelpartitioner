@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pixelpartitioner"
-version = "1.0.0"
+version = "1.0.1"
 description = "Tools for pixel partitioning, intensity-based segmentation, and visualization."
 authors = ["Ajit Johnson Nirmal <ajitjohnson.n@gmail.com>"]
 readme = "README.md"
