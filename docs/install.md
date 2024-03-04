@@ -25,8 +25,7 @@ conda activate pixelpartitioner
 pip install pixelpartitioner
 ```
 
-## **Interactive Mode**
-Using IDE or Jupyter notebooks
+#### Use IDE or Jupyter notebook to run the package
 
 ```python
 pip install notebook
