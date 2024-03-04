@@ -3,12 +3,13 @@
 # Created on Sun Mar  3 14:13:43 2024
 # @author: Ajit Johnson Nirmal
 """
+!!! abstract "Short Description"
+    The `plotPixel` function visualizes the effect of multi-class OTSU thresholding on an image, 
+    highlighting the positive regions determined by the threshold. he result is a side-by-side plot 
+    of the original and highlighted images, with a quantitative display of the positive pixels' 
+    percentage.
 
-The `plotPixel` function visualizes the effect of multi-class OTSU thresholding on an image, 
-highlighting the positive regions determined by the threshold. he result is a side-by-side plot 
-of the original and highlighted images, with a quantitative display of the positive pixels' 
-percentage.
-
+## Function
 """
 
 #import

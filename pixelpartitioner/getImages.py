@@ -4,10 +4,12 @@
 #@author: Ajit johnson Nirmal
 
 """
-The `pp.getImages` function retrieves image file paths from a specified directory, 
-with an optional filter for file extensions. It simplifies collecting images for analysis, 
-allowing for specific format selection in folders with multiple elements. 
+!!! abstract "Short Description"
+    The `pp.getImages` function retrieves image file paths from a specified directory, 
+    with an optional filter for file extensions. It simplifies collecting images for analysis, 
+    allowing for specific format selection in folders with multiple elements. 
 
+## Function
 """
 # import 
 import os

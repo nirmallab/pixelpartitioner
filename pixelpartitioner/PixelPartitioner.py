@@ -3,12 +3,13 @@
 # Created on Tue Feb 13 22:02:40 2024
 # @author: Ajit Johnson Nirmal
 """
+!!! abstract "Short Description"
+    The `PixelPartitioner` function applies multi-class OTSU thresholding to a set of images 
+    to partition pixels based on intensity. It iteratively increases the number of classes for 
+    images with a high percentage of pixels exceeding a specified threshold, accumulating 
+    results in a DataFrame. The final results are saved in a CSV file within the specified output folder.
 
-The `PixelPartitioner` function applies multi-class OTSU thresholding to a set of images 
-to partition pixels based on intensity. It iteratively increases the number of classes for 
-images with a high percentage of pixels exceeding a specified threshold, accumulating 
-results in a DataFrame. The final results are saved in a CSV file within the specified output folder.
-
+## Function
 """
 
 
