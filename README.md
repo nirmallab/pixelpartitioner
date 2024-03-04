@@ -1,4 +1,4 @@
-[![Downloads](https://static.pepy.tech/badge/cspot)](https://pepy.tech/project/pixelpartitioner)
+[![Downloads](https://static.pepy.tech/badge/pixelpartitioner)](https://pepy.tech/project/pixelpartitioner)
 [![docs](https://github.com/nirmallab/pixelpartitioner/actions/workflows/docs.yml/badge.svg)](https://github.com/nirmallab/pixelpartitioner/actions/workflows/docs.yml)
 [![build-unix-mac-win](https://github.com/nirmallab/pixelpartitioner/actions/workflows/build-unix-mac-win.yml/badge.svg)](https://github.com/nirmallab/pixelpartitioner/actions/workflows/build-unix-mac-win.yml)
 
