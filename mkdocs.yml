@@ -29,7 +29,8 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-copyright: Copyright &copy; 2024 | Nirmal Lab | www.nirmallab.com
+copyright: Copyright &copy; 2024 | Nirmal Lab | www.nirmallab.com | <a href="https://nirmallab.com/>Nirmal Lab</a>
+
 
 nav:
     - Home: 'index.md'
