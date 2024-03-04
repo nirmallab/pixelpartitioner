@@ -38,7 +38,7 @@ nav:
         - PixelPartitioner: 'Functions/PixelPartitioner.md'
         - plotPixel: 'Functions/plotPixel.md'
     - Tutorials:
-        - Download Tutorial Data: 'Tutorials/md/QuickStartGuide.md'
+        - Run the Algorithm: 'Tutorials/md/QuickStartGuide.md'
 
 
 plugins:

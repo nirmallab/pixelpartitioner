@@ -1,9 +1,23 @@
 [tool.poetry]
 name = "pixelpartitioner"
-version = "0.1.1"
-description = ""
+version = "1.0.0"
+description = "Tools for pixel partitioning, intensity-based segmentation, and visualization."
 authors = ["Ajit Johnson Nirmal <ajitjohnson.n@gmail.com>"]
 readme = "README.md"
+
+keywords = ["image analysis","multiplex imaging","single cell analysis"]
+
+homepage = "https://pypi.org/project/pixelpartitioner/"
+documentation = "https://nirmallab.github.io/pixelpartitioner/"
+repository = "https://github.com/nirmallab/pixelpartitioner"
+
+classifiers = [
+              "Development Status :: 5 - Production/Stable",
+              "Natural Language :: English",
+              "Operating System :: OS Independent",
+              "Programming Language :: Python"]
+              
+exclude = ["docs"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
